@@ -11,6 +11,7 @@ const ORBIT_HELP_MS=60000,VOTE_MS=20000,HELP_PENALTY=10,REDESIGN_PENALTY=15,PM_R
 const MODULES={
  engine:{owner:'design',label:'Engine',options:[
   {id:'heavy',name:'High-thrust engine',cost:20,mass:200,isp:315,thrustN:4800,land:.75,thrust:3,dv:6},
+  {id:'eff',name:'High-efficiency engine',cost:22,mass:140,isp:345,thrustN:3600,land:1,thrust:2,dv:5},
   {id:'light',name:'Light long-life engine',cost:14,mass:85,isp:328,thrustN:2600,land:1.4,thrust:1,dv:4}]},
  tank:{owner:'design',label:'Propellant tank',options:[
   {id:'small',name:'Small tank',cost:8,mass:60,prop:900,fuel:2},
