@@ -1,0 +1,23 @@
+# Local system files
+.DS_Store
+Thumbs.db
+
+# Dependencies and local Cloudflare state
+node_modules/
+.wrangler/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+
+# Temporary files
+*.log
+~$*
+
+# dist/worker.mjs is required; do not ignore dist/.
